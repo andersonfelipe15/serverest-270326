@@ -1,0 +1,14 @@
+{
+  "valido": {
+    "preco": 199,
+    "descricao": "Produto de automação QA",
+    "quantidade": 50
+  },
+  "mensagens": {
+    "cadastroSucesso": "Cadastro realizado com sucesso",
+    "nomeDuplicado": "Já existe produto com esse nome",
+    "naoEncontrado": "Produto não encontrado",
+    "registroExcluido": "Registro excluído com sucesso",
+    "tokenAusente": "Token de acesso ausente, inválido, expirado ou usuário do token não existe mais"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "administrador": {
+    "nome": "QA Admin Fixture",
+    "password": "Test@2024",
+    "administrador": "true"
+  },
+  "padrao": {
+    "nome": "QA User Fixture",
+    "password": "Test@2024",
+    "administrador": "false"
+  },
+  "credenciaisInvalidas": {
+    "email": "credencial@invalida.com",
+    "password": "senhaErrada123"
+  },
+  "naoExistente": {
+    "email": "nao.existe.nunca@serverest.dev",
+    "password": "Test@2024"
+  },
+  "mensagens": {
+    "cadastroSucesso": "Cadastro realizado com sucesso",
+    "emailDuplicado": "Este email já está sendo usado",
+    "credenciaisInvalidas": "Email e/ou senha inválidos",
+    "nomeObrigatorio": "nome é obrigatório",
+    "emailObrigatorio": "email é obrigatório",
+    "senhaObrigatoria": "password é obrigatório"
+  }
+}

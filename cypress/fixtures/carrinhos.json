@@ -1,0 +1,10 @@
+{
+  "mensagens": {
+    "cadastroSucesso": "Cadastro realizado com sucesso",
+    "compraFinalizada": "Registro excluído com sucesso. Estoque do produto atualizado com sucesso",
+    "compraCancelada": "Registro excluído com sucesso. Quantidade do(s) produto(s) reintegrada(s) com sucesso",
+    "semCarrinho": "Não foi encontrado carrinho para esse usuário",
+    "tokenAusente": "Token de acesso ausente, inválido, expirado ou usuário do token não existe mais",
+    "produtoDuplicado": "Não é permitido possuir produto duplicado"
+  }
+}
