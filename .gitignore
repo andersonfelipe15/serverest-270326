@@ -1,0 +1,21 @@
+# Dependências Node
+node_modules/
+
+# Artefatos do Cypress (gerados em runtime)
+cypress/videos/
+cypress/screenshots/
+
+# Cache e arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE e editor
+.vscode/
+.idea/
+
+# Variáveis de ambiente
+.env
+

@@ -1,0 +1,42 @@
+{
+  "name": "serverest-automation",
+  "version": "2.0.0",
+  "description": "Automação de testes E2E e API para ServeRest — Arquitetura Avançada com Cypress",
+  "scripts": {
+    "test": "cypress run",
+    "test:api": "cypress run --spec 'cypress/e2e/api/**/*.cy.js'",
+    "test:ui": "cypress run --spec 'cypress/e2e/ui/**/*.cy.js'",
+    "test:api:usuarios": "cypress run --spec 'cypress/e2e/api/usuarios.api.cy.js'",
+    "test:api:login": "cypress run --spec 'cypress/e2e/api/login.api.cy.js'",
+    "test:api:produtos": "cypress run --spec 'cypress/e2e/api/produtos.api.cy.js'",
+    "test:api:carrinhos": "cypress run --spec 'cypress/e2e/api/carrinhos.api.cy.js'",
+    "test:ui:login": "cypress run --spec 'cypress/e2e/ui/login.ui.cy.js'",
+    "test:ui:cadastro": "cypress run --spec 'cypress/e2e/ui/cadastro.ui.cy.js'",
+    "test:ui:home": "cypress run --spec 'cypress/e2e/ui/home.ui.cy.js'",
+    "cy:open": "cypress open",
+    "cy:open:api": "cypress open --config specPattern='cypress/e2e/api/**/*.cy.js'",
+    "cy:open:ui": "cypress open --config specPattern='cypress/e2e/ui/**/*.cy.js'"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+  "main": "cypress.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonfelipe15/serverest-270326.git"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "e2e",
+    "api-testing",
+    "serverest"
+  ],
+  "author": "andersonfelipe15",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/andersonfelipe15/serverest-270326/issues"
+  },
+  "homepage": "https://github.com/andersonfelipe15/serverest-270326#readme"
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["cypress"],
+    "paths": {
+      "@factories/*": ["cypress/support/factories/*"],
+      "@api/*":       ["cypress/support/api/*"],
+      "@pages/*":     ["cypress/support/pages/*"]
+    }
+  },
+  "include": ["cypress/**/*.js"]
+}
